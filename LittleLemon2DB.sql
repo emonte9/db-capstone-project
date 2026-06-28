@@ -30,7 +30,7 @@ ENGINE = InnoDB;
 -- Table `LittleLemon2DB`.`MenuItems`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `LittleLemon2DB`.`MenuItems` (
-  `MenuItemID` INT NOT NULL,
+  `MenuItemsID` INT NOT NULL,
   `CourseName` VARCHAR(255) NOT NULL,
   `StarterName` VARCHAR(255) NOT NULL,
   `DessertName` VARCHAR(255) NOT NULL,
