@@ -35,7 +35,7 @@ BEGIN
 END //
 
 
-DELIMITER ;
+DELIMITER;
 
 
 call LittleLemon2DB.CancelOrder(2);
