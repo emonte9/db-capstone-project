@@ -21,6 +21,7 @@ This repository contains the end-to-end database design, query optimization, ana
 ├── optimized.sql              # Stored procedures, prepared statements & query optimization
 ├── project.ipynb              # Jupyter Notebook for data pipeline & database interaction
 └── README.md                  # Project documentation
+```
 
 
 ## Key Features & Deliverables
