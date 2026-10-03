@@ -5,7 +5,7 @@ This repository contains the end-to-end database design, query optimization, ana
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 ├── dashboard/
@@ -24,8 +24,8 @@ This repository contains the end-to-end database design, query optimization, ana
 ```
 
 
-## Key Features & Deliverables
-# 1. Data Modeling & Relational Schema
+# Key Features & Deliverables
+## 1. Data Modeling & Relational Schema
 Designed and normalized relational database schemas to model bookings, orders, delivery statuses, menu items, customer details, and staff roles.
 
 Generated Entity-Relationship Diagrams (ERDs) stored in LittleLemon3DB.png to document table relationships and key constraints.
@@ -49,20 +49,20 @@ Analytics: Tableau Desktop / Tableau Public
 
 Python Environment: Python 3.8+ with Jupyter Notebook and standard SQL database connectors (mysql-connector-python or SQLAlchemy)
 
-## Installation & Setup
-# Clone the repository:
+# Installation & Setup
+## Clone the repository:
 
 git clone https://github.com/emonte9/db-capstone-project.git
 
-# Set up the Database:
+## Set up the Database:
 Import LittleLemon3DB.sql into your database management system to instantiate the schema and populate initial records:
 
 mysql -u <username> -p < LittleLemon3DB.sql
 
-# Run Query Optimizations & Views:
+## Run Query Optimizations & Views:
 Execute ViewTableSummary.sql and optimized.sql in your database client to create the necessary virtual views, functions, and stored procedures.
 
-# Explore Visualizations & Notebook:
+## Explore Visualizations & Notebook:
 
 Open dashboard/sales_customer.twb in Tableau to explore interactive sales dashboards.
 
