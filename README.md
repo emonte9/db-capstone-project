@@ -50,23 +50,24 @@ Analytics: Tableau Desktop / Tableau Public
 Python Environment: Python 3.8+ with Jupyter Notebook and standard SQL database connectors (mysql-connector-python or SQLAlchemy)
 
 # Installation & Setup
-## Clone the repository:
+## 1 Clone the repository:
 
 git clone https://github.com/emonte9/db-capstone-project.git
 
-## Set up the Database:
+## 2 Set up the Database:
+Set up the Database:
 Import LittleLemon3DB.sql into your database management system to instantiate the schema and populate initial records:
 
 mysql -u <username> -p < LittleLemon3DB.sql
 
-## Run Query Optimizations & Views:
+## 3 Run Query Optimizations & Views:
 Execute ViewTableSummary.sql and optimized.sql in your database client to create the necessary virtual views, functions, and stored procedures.
 
-## Explore Visualizations & Notebook:
+## 4 Explore Visualizations & Notebook:
 
-Open dashboard/sales_customer.twb in Tableau to explore interactive sales dashboards.
+# Open dashboard/sales_customer.twb in Tableau to explore interactive sales dashboards.
 
-Launch project.ipynb in Jupyter Notebook to test database interactions via Python.
+# Launch project.ipynb in Jupyter Notebook to test database interactions via Python.
 
 
 
