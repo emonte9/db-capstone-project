@@ -7,7 +7,7 @@ This repository contains the end-to-end database design, query optimization, ana
 
 # Repository Structure
 
-```text
+```
 ├── dashboard/
 │   └── sales_customer.twb     # Tableau workbook with customer & sales analytics
 ├── data/                      # Dataset files and supporting documentation
