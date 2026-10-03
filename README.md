@@ -65,9 +65,9 @@ Execute ViewTableSummary.sql and optimized.sql in your database client to create
 
 ## 4 Explore Visualizations & Notebook:
 
-# Open dashboard/sales_customer.twb in Tableau to explore interactive sales dashboards.
+Open dashboard/sales_customer.twb in Tableau to explore interactive sales dashboards.
 
-# Launch project.ipynb in Jupyter Notebook to test database interactions via Python.
+Launch project.ipynb in Jupyter Notebook to test database interactions via Python.
 
 
 
